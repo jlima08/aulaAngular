@@ -1,0 +1,22 @@
+h1 {
+    background-color: aqua;
+    border: 5px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1:hover {
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+       background-color: pink;
+    }
+}
+ 
